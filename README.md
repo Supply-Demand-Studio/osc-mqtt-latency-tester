@@ -17,13 +17,19 @@ change in config.json
 ## Running the OSC server
 
 ```
-npm run server
+node osc-server.js
 ```
 
 
-## Running the test
+## Running OSC test
 
 ```
-npm run test
+node osc-test.js
+```
+
+## Running MQTT test
+
+```
+node mqtt-test.js
 ```
 
