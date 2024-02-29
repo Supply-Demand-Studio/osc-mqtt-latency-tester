@@ -1,0 +1,31 @@
+{
+  "name": "osc-mqtt-latency-tester",
+  "version": "0.0.1",
+  "description": "Latency test comparison between OSC and MQTT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Supply-Demand-Studio/osc-mqtt-latency-tester.git"
+  },
+  "keywords": [
+    "osc",
+    "mqtt",
+    "latency"
+  ],
+  "author": "Louis-Pierre Morin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Supply-Demand-Studio/osc-mqtt-latency-tester/issues"
+  },
+  "homepage": "https://github.com/Supply-Demand-Studio/osc-mqtt-latency-tester#readme",
+  "devDependencies": {
+    "mqtt": "^5.3.6",
+    "osc": "^2.4.4"
+  },
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}
